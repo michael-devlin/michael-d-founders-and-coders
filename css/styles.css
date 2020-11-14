@@ -39,8 +39,7 @@ font-family: "Oswald";
 
 .top-container {
   background-color: #6a197d;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
   text-align: center;
   position: relative;
   z-index: 1;
@@ -93,7 +92,6 @@ font-family: "Oswald";
 .contact-me {
   background-color: #6a197d;
   color: #f5f5f5;
-  padding-top: 20px;
   position: relative;
   z-index: 1;
 }
