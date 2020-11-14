@@ -1,7 +1,7 @@
 body {
   margin: 0;
   text-align: center;
-  font-family: verdana, sans-serif;
+  font-family: sans-serif;
   background-color: #f5f5f5;
 }
 
@@ -10,24 +10,31 @@ h1 {
   margin-top: 0;
   color: #f5f5f5;
   font-size: 4.5rem;
+  font-family: "Oswald"
+}
+
+h3 {
+  font-family: "Oswald"
 }
 
 .title {
   text-align: center;
   line-height: 1.25;
+  font-weight: bolder;
 }
 
 h2 {
-
+font-family: "Oswald";
   font-size: 2.5rem;
   font-weight: normal;
 }
 
 .subtitle {
   color: #f5f5f5;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: normal;
   text-align: center;
+
 }
 
 .top-container {
@@ -42,6 +49,7 @@ h2 {
     text-align: center;
     width: 50%;
     margin: 100px auto 100px auto;
+
 }
 
 
@@ -66,4 +74,10 @@ h2 {
 
 .bottom-container {
 
+}
+
+.contact-me {
+  background-color: #6a197d;
+  color: #f5f5f5;
+  padding-top: 20px;
 }
