@@ -50,7 +50,7 @@ font-family: "Oswald";
   bottom: 0;
   content: '';
   display: block;
-  height: 50%;
+  height: 60%;
   left: 0;
   position: absolute;
   right: 0;
@@ -82,10 +82,12 @@ font-family: "Oswald";
   transform: translate(-50%, -50%) rotate(120deg);
   width: 900px;
   height: 400px;
+  max-height: 900px;
   background: transparent;
   border-radius: 50%;
   overflow: hidden;
-  margin-top: 200px;
+  margin-top: 240px;
+  margin-top: 300px;
 margin-bottom: -500px;
 }
 
