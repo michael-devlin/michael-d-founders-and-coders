@@ -32,7 +32,7 @@ font-family: "Oswald";
 hr {
   border: 15px solid #a37eba;
   border-bottom: none;
-  width: 35%;
+  width: 45%;
   margin: 150 auto 150 auto;
   margin-top: 60px;
   transform:rotate(-1.5deg);
@@ -40,6 +40,7 @@ hr {
 -moz-transform:rotate(-1.5deg);
 -webkit-transform:rotate(-1.5deg);
 margin-bottom: 50px;
+position: relative;
 }
 
 .alt-hr {
@@ -48,6 +49,7 @@ margin-bottom: 50px;
   -moz-transform:rotate(1.5deg);
   -webkit-transform:rotate(1.5deg);
   margin-top: -20px;
+  position: relative;
   }
 
 
@@ -153,12 +155,14 @@ padding-top: 310px;
 }
 
 .quote-generator-container {
-  background: #a37eba;
+  background: #f5f5f5;
   padding: 120px;
-  width:40%;
+  height: 200px;
+  width:45%;
   margin: auto;
-    margin-bottom: 100px;
-    text-align: center;
+  margin-bottom: 80px;
+  margin-top: -20px;
+position: relative;
 }
 
 .author-name {
@@ -168,16 +172,18 @@ padding-top: 310px;
 .button {
   display: inline-block;
   border-radius: 4px;
-  background-color: #f5f5f5;
+  background-color: #a37eba;
   border: none;
-  color: #a37eba;
+  color: #f5f5f5;
   text-align: center;
   font-size: 28px;
   padding: 20px;
   width: 220px;
   transition: all 0.5s;
   cursor: pointer;
-  margin-top: 35px;
+  margin-top: 10px;
+  position: relative;
+  margin-bottom: 20px;
 }
 
 .button span {
