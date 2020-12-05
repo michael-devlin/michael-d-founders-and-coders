@@ -130,7 +130,7 @@ margin-bottom: -500px;
   border-radius: 50%;
   transform: rotate(-60deg);
   overflow: hidden;
-  background-image: url("images/me-skye.jpg");
+  background-image: url("images/me-skye.JPG");
   background-size: contain;
   filter:hue-rotate(-35deg);
   border:1px solid #a37eba;
@@ -183,7 +183,7 @@ position: relative;
   cursor: pointer;
   margin-top: 10px;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 70px;
 }
 
 .button span {
