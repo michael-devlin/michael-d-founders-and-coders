@@ -130,7 +130,7 @@ margin-bottom: -500px;
   border-radius: 50%;
   transform: rotate(-60deg);
   overflow: hidden;
-  background-image: url("me-skye.jpg");
+  background-image: url("images/me-skye.jpg");
   background-size: contain;
   filter:hue-rotate(-35deg);
   border:1px solid #a37eba;
