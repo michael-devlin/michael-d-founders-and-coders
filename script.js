@@ -1,12 +1,17 @@
 function newQuote() {
   var quotes = {
       "― Mahatma Gandhi": '“Be the change that you wish to see in the world.”',
+      "― Greta Thunberg": '"I’ve learnt that no one is too small to make a difference.”',
       "― Martin Luther King Jr.": '“Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.”',
+      "― Malala Yousafzai": '“One child, one teacher, one book, one pen can change the world.”',
+      "― Ayaan Hirsi Ali": '“Reality is not easy, but all this make-believe does not make it easier.”',
       "― Antoine de Saint-Exupéry": '“And now here is my secret, a very simple secret: It is only with the heart that one can see rightly; what is essential is invisible to the eye.”',
       "― William Shakespeare": '“There is nothing either good or bad, but thinking makes it so.”',
       "― Albert Einstein": '“The most beautiful experience we can have is the mysterious. It is the fundamental emotion that stands at the cradle of true art and true science.”',
       "― Wei Wu Wei": '“Why are you unhappy? Because 99.9 percent of everything you think, and of everything you do, is for yourself — and there isn’t one.”',
-      "― Lao Tsu": '“Those who know do not speak. Those who speak do not know.”',
+      "― Lao Tzu": '“Those who know do not speak. Those who speak do not know.”',
+      "― Naomi Klein": '"We can save ourselves, but only if we let go of the myth of dominance and mastery and learn to work with nature."',
+      "― Nina Simone": '"I will tell you what Freedom is to me; No fear!”',
       "― Ursula Le Guin": '“It is good to have an end to journey toward; but it is the journey that matters, in the end.”',
       "- Ayishat Akanbi": '"Too many people think freedom is the ability to do anything you want, instead of the discipline to not be a slave to your compulsions."',
       "― Martin Luther King Jr.": '“I have a dream that my four little children will one day live in a nation where they will not be judged by the color of their skin but by the content of their character.”',
