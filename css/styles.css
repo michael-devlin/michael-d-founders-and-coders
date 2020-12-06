@@ -216,6 +216,7 @@ position: relative;
   position: relative;
   z-index: 1;
   margin-top: 300px;
+  padding-bottom: 60px;
 }
 
 .contact-me:before {
