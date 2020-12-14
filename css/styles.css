@@ -51,10 +51,10 @@ position: relative;
   }
 
 .top-container {
-  background:      background: -webkit-linear-gradient(70deg, #790c5a  30%, rgba(0,0,0,0) 30%), -webkit- linear-gradient(30deg, #cc0e74 60%, #e6739f 60%);
-  background: -o-linear-gradient(70deg, #790c5a 30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #cc0e74 60%, #e6739f 60%);
-  background: -moz-linear-gradient(70deg, #790c5a  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #cc0e74 60%, #e6739f 60%);
-  background: linear-gradient(70deg, #790c5a  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #cc0e74     60%, #e6739f 60%);
+  background:      background: -webkit-linear-gradient(70deg, #e6739f 30%, rgba(0,0,0,0) 30%), -webkit- linear-gradient(30deg, #cc0e74 60%, #790c5a 60%);
+  background: -o-linear-gradient(70deg, #e6739f 30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #cc0e74 60%, #790c5a 60%);
+  background: -moz-linear-gradient(70deg, #e6739f 30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #cc0e74 60%, #790c5a 60%);
+  background: linear-gradient(70deg, #e6739f 30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #cc0e74     60%, #790c5a 60%);
 padding-top: 5px;
 padding-bottom: 30px;
 text-align: center;
@@ -214,10 +214,10 @@ position: relative;
 }
 
 .contact-me {
-  background:      background: -webkit-linear-gradient(70deg, #790c5a  30%, rgba(0,0,0,0) 30%), -webkit- linear-gradient(30deg, #cc0e74 60%, #e6739f 60%);
-  background: -o-linear-gradient(70deg, #790c5a 30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #cc0e74 60%, #e6739f 60%);
-  background: -moz-linear-gradient(70deg, #790c5a  30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #cc0e74 60%, #e6739f 60%);
-  background: linear-gradient(70deg, #790c5a  30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #cc0e74     60%, #e6739f 60%);
+  background:      background: -webkit-linear-gradient(70deg, #e6739f 30%, rgba(0,0,0,0) 30%), -webkit- linear-gradient(30deg, #cc0e74 60%, #790c5a 60%);
+  background: -o-linear-gradient(70deg, #e6739f 30%, rgba(0,0,0,0) 30%), -o-linear-gradient(30deg, #cc0e74 60%, #790c5a 60%);
+  background: -moz-linear-gradient(70deg, #e6739f 30%, rgba(0,0,0,0) 30%), -moz-linear-gradient(30deg, #cc0e74 60%, #790c5a 60%);
+  background: linear-gradient(70deg, #e6739f 30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #cc0e74     60%, #790c5a 60%);
   color: #f5f5f5;
   position: relative;
   z-index: 1;
