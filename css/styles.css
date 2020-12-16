@@ -74,6 +74,24 @@ margin: auto;
        opacity: 0.9;
        width: 100%;
        height: 100%;
+       z-index: -1;
+}
+
+nav {
+  height: 10vh;
+  background: #cc0e74;
+  margin-top: -10px;
+}
+
+.section-links {
+  display: flex;
+  color: #f1d4d4;
+  font-family: "Oswald";
+  list-style: none;
+  width: 50%;
+  height: 50%;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .menu {
