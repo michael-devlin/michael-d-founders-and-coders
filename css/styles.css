@@ -76,6 +76,28 @@ margin: auto;
        height: 100%;
 }
 
+.menu {
+  position: relative;
+  width: 2.5em;
+  height: 0.8rem;
+  margin-right: 0.3em;
+  border-top: 0.2em solid #fff;
+  border-bottom: 0.2em solid #fff;
+  display: flex;
+  justify-content: flex-start;
+margin-left: 15px;
+margin-top: 5px;
+}
+  .menu:before {
+    content: '';
+    position: absolute;
+    top: 0.3em;
+    left: 0px;
+    width: 100%;
+    border-top: 0.2em solid #fff;
+  }
+
+
 .introduction {
     line-height: 1.5;
     text-align: center;
