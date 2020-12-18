@@ -80,7 +80,7 @@ margin: auto;
 nav {
   height: 10vh;
   background: #cc0e74;
-  margin-top: -10px;
+  margin-top: -20px;
 }
 
 .section-links {
@@ -94,26 +94,56 @@ nav {
   align-items: center;
 }
 
-.menu {
-  position: relative;
-  width: 2.5em;
-  height: 0.8rem;
-  margin-right: 0.3em;
-  border-top: 0.2em solid #fff;
-  border-bottom: 0.2em solid #fff;
-  display: flex;
-  justify-content: flex-start;
-margin-left: 15px;
-margin-top: 5px;
-}
-  .menu:before {
-    content: '';
+
+
+@media screen and (max-width: 768px) {
+  .menu {
     position: absolute;
-    top: 0.3em;
-    left: 0px;
-    width: 100%;
+    cursor: pointer;
+    left: 5%;
+    width: 2.5em;
+    height: 0.8rem;
+    margin-right: 0.3em;
     border-top: 0.2em solid #fff;
+    border-bottom: 0.2em solid #fff;
+    display: flex;
+    justify-content: flex-start;
+  margin-top: 15px;
+  z-index: 3;
   }
+    .menu:before {
+      content: '';
+      position: absolute;
+      top: 0.3em;
+      left: 0px;
+      width: 100%;
+      border-top: 0.2em solid #fff;
+    }
+
+    nav {
+      position: relative;
+    }
+
+    .section-links {
+      position: fixed;
+      background: #cc0e74;
+      height: 100vh;
+       width: 100%;
+       flex-direction: column;
+       clip-path: circle(1000px at 90% -10%);
+       -webkit-clip-path: circle(100px at 90% -10%);
+       transition: all 1s ease-out;
+       z-index: 2;
+       margin-top: -5px;
+    }
+
+    .section-links.open {
+      clip-path: circle(1000px at 90% -10%);
+      -webkit-clip-path: circle(1000px at 90% -10%);
+    }
+
+  }
+
 
 
 .introduction {
