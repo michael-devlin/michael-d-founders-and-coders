@@ -1,3 +1,11 @@
+const menu = document.querySelector(".menu");
+const sectionLinks = document.querySelector(".section-links");
+const links = document.querySelectorAll(".section-links li");
+
+menu.addEventListener("click", () => {
+  sectionLinks.classList.toggle("open");
+});
+
 function newQuote() {
   var quotes = {
       "― Mahatma Gandhi": '“Be the change that you wish to see in the world.”',
