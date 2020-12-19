@@ -4,6 +4,9 @@ const links = document.querySelectorAll(".section-links li");
 
 menu.addEventListener("click", () => {
   sectionLinks.classList.toggle("open");
+  links.forEach(link => {
+    link.classList.toggle("fade");
+  });
 });
 
 function newQuote() {
