@@ -81,7 +81,7 @@ width: 100vw;
 }
 
 nav {
-  height: 5vh;
+  height: 6.5vh;
   background: #cc0e74;
   margin-top: -20px;
   width: 100vw;
@@ -95,6 +95,10 @@ nav {
   height: 75%;
   justify-content: space-around;
   align-items: center;
+}
+
+.section-links li {
+    z-index: 2;
 }
 
 .section-links li a {
@@ -192,7 +196,7 @@ display: inline-block;
     nav {
       position: fixed;
       z-index: 2;
-      height: 8vh;
+      min-height: 10vh;
     }
 
     .section-links {
@@ -201,16 +205,16 @@ display: inline-block;
       height: 100vh;
        width: 100%;
        flex-direction: column;
-       clip-path: circle(100px at 0% -20%);
-       -webkit-clip-path: circle(1000px at 0% -20%);
+       clip-path: circle(100px at -20% -20%);
+       -webkit-clip-path: circle(1000px at -20% -20%);
        transition: all 1s ease-out;
        z-index: 2;
        margin-top: -5px;
     }
 
     .section-links.open {
-      clip-path: circle(1000px at 0% -20%);
-      -webkit-clip-path: circle(1000px at 0% -20%);
+      clip-path: circle(1000px at -20% -20%);
+      -webkit-clip-path: circle(1000px at -20% -20%);
     }
 
     .section-links li {
@@ -238,8 +242,6 @@ li.fade {
 }
   }
 
-
-
 .hello {
 padding-top: 30px;
 }
@@ -256,10 +258,6 @@ padding-top: 30px;
 }
 
 
-.bottom-container {
-
-}
-
 .quote-generator-container {
   background: #f1d4d4;
   padding: 120px;
@@ -271,9 +269,6 @@ padding-top: 30px;
 position: relative;
 }
 
-.author-name {
-
-}
 
 .button {
   display: inline-block;
