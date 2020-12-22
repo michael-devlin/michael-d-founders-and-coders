@@ -30,7 +30,7 @@ font-family: "Oswald";
 hr {
   border: 15px solid #790c5a;
   border-bottom: none;
-  width: 55%;
+  width: 35%;
   margin: 150 auto 150 auto;
   margin-top: 60px;
   transform:rotate(-1.5deg);
@@ -81,18 +81,21 @@ width: 100vw;
 }
 
 nav {
-  height: 5.5vh;
+  height: 60px;
+  margin-top: -10px;
   background: #cc0e74;
-  margin-top: -20px;
   width: 100vw;
+  position: fixed;
+  z-index: 2;
 }
 
 .section-links {
   display: flex;
   color: #fff;
   font-family: "Oswald";
+  font-size: 1.35rem;
   list-style: none;
-  height: 75%;
+  height: 15%;
   justify-content: space-around;
   align-items: center;
 }
@@ -167,7 +170,7 @@ display: inline-block;
   border:1px solid #a37eba;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .menu {
     position: absolute;
     cursor: pointer;
@@ -256,7 +259,7 @@ li.fade {
   }
 
 .hello {
-padding-top: 30px;
+margin-top: 10px;
 }
 
 .profile {
