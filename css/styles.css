@@ -2,7 +2,7 @@ html, body {
   margin: 0;
   text-align: center;
   font-family: sans-serif;
-  background-color: #f1d4d4;
+  background-color: #fffafa;
 width: 100vw;
 overflow-x: hidden;
 }
@@ -91,7 +91,7 @@ nav {
 
 .section-links {
   display: flex;
-  color: #fff;
+  color: #fffafa;
   font-family: "Oswald";
   font-size: 1.35rem;
   list-style: none;
@@ -178,8 +178,8 @@ display: inline-block;
     width: 2.5em;
     height: 0.8rem;
     margin-right: 0.3em;
-    border-top: 0.2em solid #fff;
-    border-bottom: 0.2em solid #fff;
+    border-top: 0.2em solid #fffafa;
+    border-bottom: 0.2em solid #fffafa;
     display: flex;
     justify-content: flex-start;
     top: 50%;
@@ -192,7 +192,7 @@ display: inline-block;
       top: 0.3em;
       left: 0px;
       width: 100%;
-      border-top: 0.2em solid #fff;
+      border-top: 0.2em solid #fffafa;
     }
 
 
@@ -207,7 +207,7 @@ display: inline-block;
       background: #cc0e74;
       opacity: 0.8;
       height: 150px;
-       width: 15%;
+       width: 80px;
        flex-direction: column;
        clip-path: inset(100px at 0% -20%);
        -webkit-clip-path: inset(1000px at 0% -20%);
@@ -221,7 +221,7 @@ display: inline-block;
     }
 
     .section-links li a {
-      color: #fff;
+      color: #fffafa;
     }
 
     .section-links.open {
@@ -275,7 +275,7 @@ margin-top: 10px;
 
 
 #quote-generator-container {
-  background: #f1d4d4;
+  background: #fffafa;
   padding: 120px;
   height: 100px;
   width:50%;
@@ -356,7 +356,7 @@ position: relative;
 
 .btn {
   cursor: pointer;
-  color: #fff;
+  color: #fffafa;
 }
 
 #social-media {
@@ -370,5 +370,5 @@ align-items: center;
   height: 70px;
   width: 70px;
   cursor: pointer;
-  color: #fff;
+  color: #fffafa;
 }
