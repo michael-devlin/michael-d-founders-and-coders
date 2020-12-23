@@ -41,7 +41,7 @@ hr {
   border-bottom: none;
   width: 35%;
   margin: 150 auto 150 auto;
-  margin-top: 60px;
+  margin-top: 75px;
   transform:rotate(-1.5deg);
 -o-transform:rotate(-1.5deg);
 -moz-transform:rotate(-1.5deg);
@@ -156,7 +156,7 @@ flex-flow: column;
   background: transparent;
   border-radius: 50%;
   overflow: hidden;
-margin-top: 300px;
+margin-top: 350px;
 display: inline-block;
   margin-left: 50%;
   margin-right: auto;
@@ -288,6 +288,10 @@ margin-top: 10px;
   width: 50%;
 }
 
+#quote {
+  margin: auto;
+}
+
 #middle-container {
   margin: 100px 0;
 
@@ -297,17 +301,21 @@ margin-top: 10px;
 #quote-generator-container {
   background: #e6739f;
   padding: 120px;
-  height: 165px;
-  width:57.5%;
+  height: 180px;
+  width:53.5%;
   transform: skew(-5deg);
   margin: auto;
-  margin-top: 70px;
+  margin-top: 55px;
 position: relative;
 border-top: 10px solid #cc0e74;
-padding: 10% 10% 14% 10%;
 border-radius: 25px;
 font-size: 1rem;
 }
+
+#quote {
+margin-top: 1.7%;
+}
+
 
 .button {
   display: inline-block;
@@ -357,6 +365,7 @@ font-size: 1rem;
   margin: auto;
 }
 
+
 #quotes {
   text-align: center;
 }
@@ -368,7 +377,7 @@ font-size: 1rem;
   background: linear-gradient(70deg, #e6739f 30%, rgba(0,0,0,0) 30%), linear-gradient(30deg, #cc0e74     60%, #790c5a 60%);
   color: #f5f5f5;
   position: relative;
-  margin-top: 180px;
+  margin-top: 100px;
   padding-top: 5px;
   padding-bottom: 60px;
 
