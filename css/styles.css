@@ -297,19 +297,17 @@ margin-top: 10px;
 #quote-generator-container {
   background: #e6739f;
   padding: 120px;
-  height: 210px;
-  width:70%;
+  height: 165px;
+  width:57.5%;
   transform: skew(-5deg);
   margin: auto;
-  margin-top: -20px;
+  margin-top: 70px;
 position: relative;
 border-top: 10px solid #cc0e74;
 padding: 10% 10% 14% 10%;
 border-radius: 25px;
 font-size: 1rem;
 }
-
-
 
 .button {
   display: inline-block;
