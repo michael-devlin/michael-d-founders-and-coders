@@ -278,7 +278,7 @@ nav {
 
 .hello {
   margin-top: 10px;
-  margin-bottom: 8px;
+  margin-bottom: px;
 }
 
 #quotes-intro {
@@ -391,7 +391,7 @@ nav {
   position: relative;
   margin-top: 100px;
   padding-top: 5px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 #contact-me:before {

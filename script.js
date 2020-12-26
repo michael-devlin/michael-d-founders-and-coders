@@ -19,6 +19,7 @@ function newQuote() {
   var quotes = {
     "― Mahatma Gandhi": '“Be the change that you wish to see in the world.”',
     "― Greta Thunberg": '"I’ve learnt that no one is too small to make a difference.”',
+    "― Dalai Lama XIV": '“Know the rules well, so you can break them effectively.”',
     "― Martin Luther King Jr.": '“Darkness cannot drive out darkness: only light can do that. Hate cannot drive out hate: only love can do that.”',
     "― Malala Yousafzai": '“One child, one teacher, one book, one pen can change the world.”',
     "― Ayaan Hirsi Ali": '“Reality is not easy, but all this make-believe does not make it easier.”',
