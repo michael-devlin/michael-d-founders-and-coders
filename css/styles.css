@@ -163,7 +163,6 @@ nav {
     content: '';
     position: absolute;
     top: 0.3em;
-    left: 0px;
     width: 100%;
     border-top: 0.2em solid #fffafa;
   }
@@ -178,8 +177,8 @@ nav {
     position: fixed;
     background: #cc0e74;
     opacity: 0.8;
-    height: 150px;
-    width: 100px;
+    height: 180px;
+    width: 140px;
     flex-direction: column;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
@@ -195,8 +194,9 @@ nav {
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     margin-top: 20px;
-    padding-bottom: 20px;
-    padding-top: 50px;
+    padding-bottom: 55px;
+    padding-top: 85px;
+    line-height: 2.5;
   }
 
   .section-links li {
@@ -204,7 +204,7 @@ nav {
   }
 
   .section-links li a {
-    font-size: 20px;
+    font-size: 1.75rem;
     color: #fffafa;
   }
 
