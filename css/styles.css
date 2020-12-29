@@ -5,7 +5,7 @@ html, body {
   text-align: center;
   font-family: "Inconsolata", sans-serif;
   color: #1a1c20;
-  font-weight: 590;
+  font-weight: 500;
   background-color: #fffafa;
   width: 100vw;
   overflow-x: hidden;
@@ -38,7 +38,7 @@ hr {
   border: 12px solid #790c5a;
   border-bottom: none;
   width: 20%;
-  margin: 150 auto 150 auto;
+  margin: 150px auto 150px auto;
   margin-top: 75px;
   transform: rotate(-1.5deg);
   -o-transform: rotate(-1.5deg);
@@ -278,7 +278,6 @@ nav {
 
 .hello {
   margin-top: 10px;
-  margin-bottom: px;
 }
 
 #quotes-intro {
