@@ -50,7 +50,8 @@ function newQuote() {
     "― Bhagavad Gita II, 47": '“Be intent on action, not on the fruits of action, avoid attraction to the fruits and attachment to inaction!"',
     "― Rumi": '“Yesterday I was clever, so I wanted to change the world. Today I am wise, so I am changing myself.”',
     "― Plato": '“Be kind, for everyone you meet is fighting a harder battle.”',
-    "― Marcus Aurelius": '“Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.”'
+    "― Marcus Aurelius": '“Everything we hear is an opinion, not a fact. Everything we see is a perspective, not the truth.”',
+    "― Virginia Woolf": '“All extremes of feeling are allied with madness.”'
   };
 
   // get all keys (authors)
