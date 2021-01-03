@@ -12,8 +12,8 @@ html, body {
 }
 
 h1 {
-  line-height: 0.5;
   margin-top: 0;
+  line-height: 0.5;
   color: #f5f5f5;
   font-size: 4.5rem;
   font-family: "Oswald"
@@ -38,13 +38,11 @@ hr {
   border: 12px solid #790c5a;
   border-bottom: none;
   width: 20%;
-  margin: 150px auto 150px auto;
-  margin-top: 75px;
+  margin: 75px auto 50px auto;
   transform: rotate(-1.5deg);
   -o-transform: rotate(-1.5deg);
   -moz-transform: rotate(-1.5deg);
   -webkit-transform: rotate(-1.5deg);
-  margin-bottom: 50px;
   position: relative;
 }
 
@@ -53,8 +51,7 @@ hr {
   -o-transform: rotate(1.5deg);
   -moz-transform: rotate(1.5deg);
   -webkit-transform: rotate(1.5deg);
-  margin-top: 75px;
-  margin-bottom: 70px;
+  margin: 75px auto 70 auto;
   position: relative;
 }
 
@@ -65,14 +62,12 @@ hr {
   background: -o-linear-gradient(70deg, #e6739f 30%, rgba(0, 0, 0, 0) 30%), -o-linear-gradient(30deg, #cc0e74 60%, #790c5a 60%);
   background: -moz-linear-gradient(70deg, #e6739f 30%, rgba(0, 0, 0, 0) 30%), -moz-linear-gradient(30deg, #cc0e74 60%, #790c5a 60%);
   background: linear-gradient(70deg, #e6739f 30%, rgba(0, 0, 0, 0) 30%), linear-gradient(30deg, #cc0e74 60%, #790c5a 60%);
-  padding-top: 5px;
-  padding-bottom: 30px;
+  padding: 5px 0 30px 0;
   text-align: center;
   position: relative;
   z-index: 1;
-  margin: auto;
+  margin: 0 auto 50px auto;
   width: 100vw;
-  margin-bottom: 50px;
 }
 
 #top-container:before {
@@ -194,7 +189,7 @@ nav {
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     margin-top: 20px;
-    padding-bottom: 55px;
+    padding: 55px;
     padding-top: 115px;
     line-height: 2.5;
   }
@@ -233,7 +228,6 @@ nav {
 
 .photo-holder {
   position: relative;
-  top: 100%;
   transform: translate(-50%, -50%) rotate(120deg);
   width: 900px;
   height: 400px;
@@ -241,10 +235,8 @@ nav {
   background: transparent;
   border-radius: 50%;
   overflow: hidden;
-  margin-top: 350px;
+  margin: 350px auto 0 50%;
   display: inline-block;
-  margin-left: 50%;
-  margin-right: auto;
   display: flex;
 }
 
@@ -292,9 +284,9 @@ nav {
   padding: 120px;
   height: 180px;
   width: 53.5%;
+  min-width: 320px;
   transform: skew(-5deg);
-  margin: auto;
-  margin-top: 55px;
+  margin: 55px auto 0 auto;
   position: relative;
   border-top: 10px solid #790c5a;
   border-radius: 25px;
@@ -315,8 +307,7 @@ nav {
 }
 
 #quote {
-  margin-top: 1.7%;
-  margin: auto;
+  margin: 1.7% auto 0 auto;
 }
 
 .button {
@@ -389,8 +380,7 @@ nav {
   color: #f5f5f5;
   position: relative;
   margin-top: 100px;
-  padding-top: 5px;
-  padding-bottom: 30px;
+  padding: 5px 0 30px 0;
 }
 
 #contact-me:before {
