@@ -151,13 +151,13 @@ nav {
     cursor: pointer;
     left: 5%;
     width: 2.5em;
-    height: 0.8rem;
+    height: 0.84rem;
     margin-right: 0.3em;
     border-top: 0.2em solid #fffafa;
     border-bottom: 0.2em solid #fffafa;
     display: flex;
     justify-content: flex-start;
-    top: 50%;
+    top: 40%;
     z-index: 3;
   }
 
