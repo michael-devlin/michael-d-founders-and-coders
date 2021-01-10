@@ -184,6 +184,8 @@ nav {
     flex-direction: column;
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    -o-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    -moz-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     transition: all 1s ease-out;
     z-index: 2;
     margin-top: -180px;
@@ -195,6 +197,8 @@ nav {
   .section-links.open {
     clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     -webkit-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    -o-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    -moz-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     margin-top: 20px;
     padding: 55px;
     padding-top: 115px;
@@ -211,19 +215,19 @@ nav {
   }
 
   .section-links li:nth-child(1) {
-    transition: all 0.5s ease 0.9s;
+    transition: all 0.5s easier;
   }
 
   .section-links li:nth-child(2) {
-    transition: all 0.5s ease 0.7s;
+    transition: all 0.5s easier;
   }
 
   .section-links li:nth-child(3) {
-    transition: all 0.5s ease 0.5s;
+    transition: all 0.5s easier;
   }
 
   .section-links li:nth-child(4) {
-    transition: all 0.5s ease 0.3s;
+    transition: all 0.5s easier;
   }
 
   li.fade {
