@@ -39,8 +39,6 @@ a {
   color: #1a1c20;
 }
 
-
-
 hr {
   border: 12px solid #790c5a;
   border-bottom: none;
@@ -188,7 +186,7 @@ nav {
     -moz-clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
     transition: all 1s ease-out;
     z-index: 2;
-    margin-top: -180px;
+    margin-top: -250px;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -379,8 +377,8 @@ font-size: 1.2rem;
   width: 65%;
   text-align: center;
   margin: auto;
-  font-weight: 700;
-  font-size: 1.1rem;
+
+  color: #790c5a;
 }
 
 /* contact section */

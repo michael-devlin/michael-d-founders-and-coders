@@ -26,7 +26,7 @@ function newQuote() {
     "― Antoine de Saint-Exupéry": '“And now here is my secret, a very simple secret: It is only with the heart that one can see rightly; what is essential is invisible to the eye.”',
     "― William Shakespeare": '“There is nothing either good or bad, but thinking makes it so.”',
     "― Albert Einstein": '“The most beautiful experience we can have is the mysterious. It is the fundamental emotion that stands at the cradle of true art and true science.”',
-    "― Wei Wu Wei": '“Why are you unhappy? Because 99.9 percent of everything you think, and of everything you do, is for yourself — and there isn’t one.”',
+    "― Wei Wu Wei": '“Play your part in the comedy – but do not identify yourself with your role.”',
     "― Lao Tzu": '“Those who know do not speak. Those who speak do not know.”',
     "― Naomi Klein": '"We can save ourselves, but only if we let go of the myth of dominance and mastery and learn to work with nature."',
     "― Nina Simone": '"I will tell you what Freedom is to me; No fear!”',
@@ -43,7 +43,7 @@ function newQuote() {
     "― Thich Nhat Hanh": '“To be beautiful means to be yourself. You don’t need to be accepted by others. You need to accept yourself.”',
     "― Maya Angelou": '“Hate, it has caused a lot of problems in the world, but has not solved one yet.”',
     "― Deeyah Khan": '"Self-expression should not be a challenge that demands extraordinary talent but should be a right accessible to all."',
-    "― Peter Singer": '“We are, quite literally, gambling with the future of our planet - for the sake of hamburgers”',
+    "― Peter Singer": '“What one generation finds ridiculous, the next accepts; and the third shudders when it looks back on what the first did.”',
     "― Elif Shafak": '“Do not go with the flow. Be the flow.”',
     "― Nelson Mandela": "“Resentment is like drinking poison and then hoping it will kill your enemies.”",
     "― Nisargadatta Maharaj": '“You will receive everything you need when you stop asking for what you do not need”',
@@ -60,6 +60,7 @@ function newQuote() {
   var author = keys[Math.floor(Math.random() * keys.length)];
   // get the value (quote) that belongs to that key
   var quote = quotes[author];
+
 
 // change inner html tags and reassign it with stored variables in 'author' and 'quote'
 
