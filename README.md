@@ -3,6 +3,6 @@
 My application website for Founders & Coders 21!
 
 ## Tech Stack
-HTML
-CSS 
-JavaScript
+- HTML
+- CSS 
+- JavaScript
